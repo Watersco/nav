@@ -1,0 +1,150 @@
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background: #615e6f;
+}
+.globalHeader {
+  margin: 30px;
+}
+.searchForm {
+  display: flex;
+  justify-content: space-between;
+  max-width: 850px;
+  min-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.globalHeader > .searchForm > input {
+  width: 100%;
+  margin-right: -30px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 20px;
+  outline: none;
+  border: none;
+}
+.searchForm > input:hover {
+  border: #cfb0f7 solid 3px;
+}
+li > .site:hover > .close {
+  display: block;
+  cursor: default;
+}
+.globalHeader > .searchForm > button {
+  white-space: nowrap;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #e7d8ff;
+  font-size: 20px;
+  color: #c014fd;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.globalMain {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  background-color: rgba(18, 18, 18, 0.4);
+  border-radius: 20px;
+  max-width: 1300px;
+}
+@media (max-width: 1300px) {
+  .globalMain {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.globalMain p {
+  text-align: center;
+  color: #cfb0f7;
+}
+.ulList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ulList li {
+  margin-top: 10px;
+  margin: 10px;
+  /* cursor: default; */
+}
+
+.ulList .site,
+.addButton {
+  border: 1px solid #000;
+  width: 95px;
+  height: 95px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  border: 5px solid #e7d8ff;
+  cursor: pointer;
+  position: relative;
+}
+.ulList .site > .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: inherit;
+}
+.site .logo > .icon {
+  height: 45px;
+  width: 45px;
+}
+.ulList .site > .link {
+  font-size: 12px;
+  text-align: center;
+  /* margin-top: 6px; */
+  text-overflow: ellipsis;
+}
+.ulList .site .close {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: none;
+}
+.ulList .site .close > .icon {
+  width: 30px;
+  height: 30px;
+}
+.addButton > .icon {
+  height: 54px;
+  width: 54px;
+}
+
+.ulList .addButton > #text1 {
+  font-size: 13px;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
